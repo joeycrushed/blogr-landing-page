@@ -18,10 +18,11 @@ function Introduction() {
                     <p>Flexible content management enables users to easily move through posts. Increase the usability of your blog 
                     by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.</p>
                 </div>
+            </div>  
                 <div>
                     <img className="intro-img" src={mobile} alt="" />
                 </div>
-            </div>
+            
         </div>
     )
 }

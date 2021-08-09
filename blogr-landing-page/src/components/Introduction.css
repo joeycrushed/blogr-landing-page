@@ -4,18 +4,29 @@
 }
 
 .intro-items {
-    display: flex;
-    justify-content: space-around;
+    display: block;
+    max-width: 100%;
 }
 
 .intro-text {
     height: 400px;
-    width: 40%;
-    padding: 20px 0px;
+    width: 500px;
+    padding-top: 100px;
+    margin-left: 100px;
+}
+
+.intro-text h2 {
+    padding: 10px 0px;
+}
+
+.intro-text p {
+    font-size: 15px;
+
 }
 
 .intro-img {
-    height: 400px;
+    height: 650px;
     position: relative;
-    overflow: hidden;
+    top: -400px;
+    left: 700px;
 }
