@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from './Navbar/Navbar'
 import './Hero.css'
 import { Button } from './Button'
-import bg from './bg.svg'
 
 
 function Hero() {

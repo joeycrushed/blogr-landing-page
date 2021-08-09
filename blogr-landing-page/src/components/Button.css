@@ -46,3 +46,10 @@
     font-size: 18px;
     color: hsl(353, 100%, 62%) 100%;
 }
+
+.btn-learn {
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: 1px solid white;
+    font-size: 12px;
+}
