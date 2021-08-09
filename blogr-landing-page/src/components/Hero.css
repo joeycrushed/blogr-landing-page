@@ -5,15 +5,7 @@
     border-radius: 6%/0 0 0 66px;
 }
 
-.svg-img-nav {
-    height: 1650px;
-    width: 1650px;
-    position: fixed;
-    right: -90px;
-    top: -531px;
-}
-
-.hero-text {
+.hero {
     display:flex;
     justify-content: column;
     align-items: center;
@@ -23,11 +15,10 @@
     overflow: hidden;
 }
 
-.hero-text h1 {
+.hero h1 {
     font-size: 50px;
 }
 
 .hero-btns {
     margin-top: 24px;
 }
-
