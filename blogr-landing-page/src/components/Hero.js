@@ -7,7 +7,9 @@ import { Button } from './Button'
 function Hero() {
     return (
         <div className="hero-bg">
+            <div>
             <Navbar />
+            </div>
             <div className="hero-text">
                 <h1>A modern publishing platform</h1>
                 <p>Grow your audience and build your online trend</p>
