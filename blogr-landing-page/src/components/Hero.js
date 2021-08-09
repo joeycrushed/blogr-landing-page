@@ -2,16 +2,23 @@ import React from 'react'
 import Navbar from './Navbar/Navbar'
 import './Hero.css'
 import { Button } from './Button'
+import bg from './bg.svg'
+
 
 function Hero() {
     return (
         <div className="hero-bg">
             <Navbar />
-            <h1>A Modern publishing platform</h1>
-            <p> grow your audience and build your platform</p>
-            <Button className="btn--medium">Start for free</Button>
-            <Button>Learn More</Button>
+            <div className="hero-text">
+                <h1>A modern publishing platform</h1>
+                <p>Grow your audience and build your online trend</p>
+                <div className="hero-btns">
+                    <Button>Start For Free</Button>
+                    <Button>Learn More</Button>
+                </div>
+            </div>
         </div>
+        
     )
 }
 

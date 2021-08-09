@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { MenuItems } from "./MenuItems"
 import { Button } from "../Button"
 import './Navbar.css'
+import bg from '../bg.svg'
 
 class Navbar extends Component {
     state = { clicked: false }

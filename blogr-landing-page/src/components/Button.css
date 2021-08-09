@@ -8,6 +8,8 @@
     outline: none;
     border: none;
     cursor: pointer;
+    margin-left: 15px;
+    color: hsl(353, 100%, 62%);
 }
 
 .btn:hover {
