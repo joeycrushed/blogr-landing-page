@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar/Navbar'
 import './Hero.css'
 import { Button } from './Button'
+import bg from '../images/bg.svg'
 
 
 function Hero() {
@@ -19,7 +20,7 @@ function Hero() {
                 </div>
             </div>
         </div>
-        
+   
     )
 }
 
