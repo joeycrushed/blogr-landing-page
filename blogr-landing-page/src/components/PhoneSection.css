@@ -7,6 +7,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    border-radius: 6%/0 66px 0 66px;
     
 
 }
@@ -15,7 +16,7 @@
     width: 550px;
     display: flex;
     flex-direction: column;
-    margin-right: 250px;
+    margin-right: 200px;
 }
 
 .phone-title h1 {
@@ -24,4 +25,11 @@
 
 .phone-title p {
     font-size: 16px;
+}
+
+.phone-img {
+    position:relative;
+    top: 15px;
+    right: 25px;
+
 }
