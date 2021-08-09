@@ -1,12 +1,13 @@
 import React from 'react'
 import mobile from '../images/mobile.svg'
+import './Introduction.css'
 
 
 function Introduction() {
     return (
         <div>
             <h1>Designed for the future</h1>
-            <div>
+            <div className="intro-items">
                 <div>
                     <h2>Introducing an extensible editor</h2>
                     <p> Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
