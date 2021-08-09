@@ -4,4 +4,24 @@
     width: 100%;
     margin-top: -350px;
     color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+}
+
+.phone-title {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 250px;
+}
+
+.phone-title h1 {
+    padding-bottom: 14px;  
+}
+
+.phone-title p {
+    font-size: 16px;
 }
