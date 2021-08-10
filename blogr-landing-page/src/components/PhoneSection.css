@@ -2,34 +2,6 @@
     background-color: hsl(237, 17%, 21%);
     height: 400px;
     width: 100%;
-    margin-top: -440px;
-    color: white;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    margin-top: -40px;
     border-radius: 6%/0 66px 0 66px;
-    
-
-}
-
-.phone-title {
-    width: 550px;
-    display: flex;
-    flex-direction: column;
-    margin-right: 200px;
-}
-
-.phone-title h1 {
-    padding-bottom: 14px;  
-}
-
-.phone-title p {
-    font-size: 16px;
-}
-
-.phone-img {
-    position:relative;
-    top: 15px;
-    right: 25px;
-
 }
