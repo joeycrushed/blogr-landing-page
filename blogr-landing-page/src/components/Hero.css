@@ -8,20 +8,26 @@
 
 .nav {
     z-index: 1;
+    position: relative;
+    background-color: hsl(353, 100%, 62%) 0%);
 }
 
 .hero {
-    display:flex;
-    justify-content: column;
-    align-items: center;
-    flex-direction: column;
     color: white;
-    margin-top: 50px;
+    margin-top: 60px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: hsl(353, 100%, 62%) 0%);
     
 }
 
 .img {
-    margin-top: -1200px;
+    margin-top: -1700px;
+    margin-left: -500px;
 }
 
 .hero h1 {
