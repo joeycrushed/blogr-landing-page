@@ -1,5 +1,5 @@
 import React from 'react'
-import mobile from '../images/mobile.svg'
+import circlesq from '../images/circle-sq.svg'
 import './Introduction.css'
 
 
@@ -20,7 +20,7 @@ function Introduction() {
                 </div>
             </div>  
                 <div>
-                    <img className="intro-img" src={mobile} alt="" />
+                    <img className="intro-img" src={circlesq} alt="" />
                 </div>
             
         </div>
