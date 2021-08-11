@@ -1,7 +1,31 @@
-.phone-bg {
+.outer {
+    display: grid;
+    grid-template: 1fr / 1fr;
+    place-items: center;
     background-color: hsl(237, 17%, 21%);
     height: 400px;
-    width: 100%;
-    margin-top: -40px;
-    border-radius: 6%/0 66px 0 66px;
-}
+    overflow: hidden;
+    margin-bottom: 150px;
+  }
+  .outer > * {
+    grid-column: 1 / 1;
+    grid-row: 1 / 1;
+  }
+  .outer .below {
+    z-index: 1;
+  }
+  .outer .top {
+    z-index: 2;
+  }
+
+  .circle{
+    position: relative;
+    top: -500px;
+    left: -400px;
+  }
+
+  .phone {
+    position: absolute;
+    top: 1250px;
+    left: 100px;
+  }
