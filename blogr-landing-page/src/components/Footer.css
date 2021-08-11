@@ -1,13 +1,16 @@
 .footer-bg {
     background-color: hsl(240, 10%, 16%);
-    height: 400px;
+    height: 350px;
     width: 100%;
     border-radius: 6%/0 66px 0 0;
+    color: white;
 }
 
 .container {
     display: flex;
     height: 300px;
+    justify-content: space-between;
+    padding: 75px 200px;
 }
 
 .logo {
@@ -17,4 +20,16 @@
     margin: 0px 20px;
     cursor: pointer;
     font-size: 2rem;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list li {
+    text-decoration: none;
+}
+
+.footer-list li h3 {
+    padding-bottom: 19px;
 }
